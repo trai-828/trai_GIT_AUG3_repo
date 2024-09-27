@@ -1,1 +1,7 @@
 this is the tesst script for AGS script for assignment.
+POST /api/v1/webhooks
+BODY: {
+  "url": "https://some-url.com",
+  "type": "notes",
+  "secret": "a-secret"    //optional
+}
